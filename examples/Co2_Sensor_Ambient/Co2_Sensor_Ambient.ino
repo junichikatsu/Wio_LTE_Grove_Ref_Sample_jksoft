@@ -13,9 +13,9 @@ Co2Sensor co2;
 WioLTE Wio;
 WioLTEClient WioClient(&Wio);
 
-unsigned int channelId = 3112;
-const char* writeKey = "543ea1f57ee3884d";
-const char* userKey = " e8a7321c1519a69a4b";
+unsigned int channelId = 100;
+const char* writeKey = "...writeKey...";
+const char* userKey = "...userKey...";
 Ambient ambient;
 
 bool connectLTE() {
